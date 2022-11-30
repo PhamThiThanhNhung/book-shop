@@ -6,7 +6,8 @@ class Products with ChangeNotifier {
     Product(
         id: 'book1',
         title: 'Tuổi Trẻ Đáng Gía Bao Nhiêu',
-        description: '',
+        description:
+            'Cuốn Tuổi trẻ đáng giá bao nhiêu có thể được coi là một ngọn hải đăng chỉ dẫn ban đọc đi qua đại dương tuổi trẻ vô cùng rộng lớn, mênh mông nhưng ẩn chứa rất nhiều thách thức. Xuyên suốt cuốn sách, tác giả Rosie nói về những bài học trong quá trình khám phá bản thân của mình và khuyến khích các bạn trẻ đi nhiều hơn, trải nghiệm nhiều hơn và cống hiến nhiều hơn.',
         price: 70.000,
         auth: ' Rosie Nguyễn',
         imageUrl:
@@ -14,7 +15,8 @@ class Products with ChangeNotifier {
     Product(
       id: 'book2',
       title: 'Tôi Tài Giỏi Bạn Cũng Thế',
-      description: 'Bàn phím cơ Akko 3084SP Ocean Star',
+      description:
+          'Tôi tài giỏi, bạn cũng thế! cung cấp những phương pháp tăng cường sự tự tin và làm chủ cuộc sống, các công cụ học bằng cả não bộ như bản đồ tư duy, trí nhớ siêu đẳng, cách quản lý thời gian và xác định mục tiêu, phương pháp thi cử hiệu quả, vân vân.',
       price: 85.000,
       auth: 'Adam Khoo',
       imageUrl:
@@ -43,7 +45,8 @@ class Products with ChangeNotifier {
     Product(
         id: 'book5',
         title: 'Tôi quyết đinh sống cho chính tôi',
-        description: 'Bàn phím cơ AKKO 3087 v2 Monet’s Pond (Akko switch v2)',
+        description:
+            '“Tôi quyết định sống cho chính tôi”gồm 6 phần với độ dài vừa phải 232 trang, những dòng tản văn vô cùng nhẹ nhàng giúp bạn tôn trọng chính mình, sống đời hạnh phúc theo một cách duy nhất và cách mà bạn có thể làm tốt nhất - sống cuộc đời của chính mình.',
         price: 50.000,
         auth: 'Cuong',
         imageUrl:
@@ -61,7 +64,7 @@ class Products with ChangeNotifier {
       id: 'book7',
       title: 'Mỗi Lần Vấp Ngã Là Một Lần Trưởng Thành',
       description:
-          'Bàn phím cơ AKKO 3068B Multi-modes World Tour Tokyo R2 (Bluetooth 5.0 / Wireless 2.4Ghz / Hotswap / Foam tiêu âm / AKKO CS Jelly sw)',
+          'Mỗi lần vấp ngã là một lần trưởng thành chỉ ra rằng, không chỉ có thành công mới đáng được khen ngợi, mỗi lần thất bại bạn lại nhận được những kinh nghiệm, bạn đã lĩnh hội. Vượt qua khó khăn tức là bạn đã bước thêm một bước trên con đường trưởng thành.',
       price: 80.000,
       auth: 'Cuong',
       imageUrl:

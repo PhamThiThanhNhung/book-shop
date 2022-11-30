@@ -28,18 +28,8 @@ class _SearchScreenState extends State<LoginScreen> {
 
     final widgetList = [
       Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Container(
-              child: IconButton(
-            onPressed: () {
-              Navigator.of(context).pushReplacementNamed(LoginScreen.routeName);
-            },
-            icon: Icon(Icons.arrow_back),
-          )),
-          SizedBox(
-            width: 50,
-          ),
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: const <Widget>[
           Center(
             child: Text(
               'Sign In',
@@ -52,13 +42,6 @@ class _SearchScreenState extends State<LoginScreen> {
               // textAlign: TextAlign.center,
             ),
           ),
-          SizedBox(
-            width: 75,
-          ),
-          Icon(
-              // onPressed: () { },
-
-              Icons.keyboard_control_outlined),
         ],
       ),
       const SizedBox(
@@ -67,13 +50,16 @@ class _SearchScreenState extends State<LoginScreen> {
       Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset('images/bookstore.png',
-              width: 200, height: 200, fit: BoxFit.fill),
-          SizedBox(
-            height: 200,
-            width: 100,
+          Container(
+            width: 200,
+            margin: EdgeInsets.all(10),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(100),
+              child: Image.asset('images/bookstore.png',
+                  width: 200, height: 200, fit: BoxFit.fill),
+            ),
           ),
-          Text(
+          const Text(
             'Color Store',
             style: TextStyle(
               fontFamily: 'MyFont',
