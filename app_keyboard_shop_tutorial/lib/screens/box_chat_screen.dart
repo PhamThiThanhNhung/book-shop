@@ -127,7 +127,8 @@ class _ChatScreenState extends State<ChatScreen> {
     );
   }
 
-  void sendMessage(String text) {
+  void sendMessage(text) {
+    print(text);
     var messageJson = {"message": text, "sentByMe": socket.id};
     socket.emit('message', messageJson);
     chatController.chatMessages.add(Message.fromJson(messageJson));
