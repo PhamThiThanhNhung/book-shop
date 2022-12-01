@@ -77,7 +77,7 @@ class Products with ChangeNotifier {
         price: 90.000,
         auth: 'Cuong',
         imageUrl:
-            "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTqyHHj0Qxm7LYDOXLhUZbT2ei1GQ7NDHXZJpPR8RvpYGzMrNza-t9T-5rexExc2TSMAckjAuIclg&usqp=CAc"),
+            "https://i0.wp.com/drkhoe.vn/wp-content/uploads/2022/03/khong-so-cham-chi-so-dung-5.jpg"),
   ];
 
   List<Product> get items {
